@@ -9,7 +9,10 @@ Aqui alojare unos cuantos fractales hechos con codigo python. Los tipos de fract
 
 ### Conjuntos de newton
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Aqui observaremos distintos fractales newton y de paso dostos como:
+* Funcion utilizada para obtenerla
+* Raices de la funcion
+* Grafica de la velocidad y el punto de convergencia
 
 ```markdown
 Syntax highlighted code block
