@@ -14,7 +14,7 @@ Aqui observaremos distintos fractales Newton y de paso datos como:
 * Raices de la funcion
 * Grafica de la velocidad y el punto de convergencia
 
-![Mi primer Fractal](C:\Users\Mateo Ruiz\OneDrive\Documentos\TRABAJOS Y DOCUMENTOS DE LA UNIVERSIDAD\programcion\Galeria de Fractales)
+![Mi primer Fractal](Fractal 1.PNG)
 
 ```markdown
 Syntax highlighted code block
