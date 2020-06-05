@@ -2,11 +2,10 @@
 
 Aqui alojare unos cuantos fractales hechos con codigo python. Los tipos de fractaes que se alojaran aqui sera los siguientes.
 
-  *Conjuntos de Newton
-
-  *conjuntos de Julia
-
-  *sistemas iterados de funciones
+* Item 1
+* Item 2
+  * Item 2a
+  * Item 2b
 
 
 ### Conjuntos de newton
