@@ -47,7 +47,7 @@ for y in range (imgy):
 image
 
 ```
-La funcio matematica para este fractal fue $x^3-1$
+La funcion matematica para este fractal fue $ x^3-1 $
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
