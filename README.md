@@ -9,10 +9,12 @@ Aqui alojare unos cuantos fractales hechos con codigo python. Los tipos de fract
 
 ### Conjuntos de newton
 
-Aqui observaremos distintos fractales newton y de paso dostos como:
+Aqui observaremos distintos fractales Newton y de paso datos como:
 * Funcion utilizada para obtenerla
 * Raices de la funcion
 * Grafica de la velocidad y el punto de convergencia
+
+![Mi primer Fractal](C:\Users\Mateo Ruiz\OneDrive\Documentos\TRABAJOS Y DOCUMENTOS DE LA UNIVERSIDAD\programcion\Galeria de Fractales)
 
 ```markdown
 Syntax highlighted code block
