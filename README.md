@@ -16,22 +16,36 @@ Aqui observaremos distintos fractales Newton y de paso datos como:
 
 ![Mi primer Fractal](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%201.PNG)
 
-```markdown
-Syntax highlighted code block
+```
+import matplotlib.pyplot as plt
+from PIL import Image
+xa=-1
+xb=1
+ya=-1
+yb=1
+maxit=202
+h=1e-6
+eps=1e-3
+def f(z):
+    return z**3-1
 
-# Header 1
-## Header 2
-### Header 3
+for y in range (imgy):
+    zy=y*(yb-ya)/(imgy-1)+ya
+    for x in range (imgx):
+        zx=x*(xb-xa)/(imgx-1)+xa
+        z=complex(zx,zy)
+        for i in range (maxit):
+            dz=(f(z+complex(h,h))-f(z))/complex(h,h)
+            z0=z-f(z)/dz
+            if abs (z0-z)<eps:
+                break
+            z=z0
+            r=i*20
+            g=i*20
+            b=i*20
+            image.putpixel((x,y),(r,g,b))
+image
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
