@@ -2,7 +2,7 @@
 
 Aqui alojare unos cuantos fractales hechos con codigo python. Los tipos de fractaes que se alojaran aqui sera los siguientes.
 
--Conjuntos de Newton+
+-Conjuntos de Newton
 
 -Conjuntos de Julia
 
