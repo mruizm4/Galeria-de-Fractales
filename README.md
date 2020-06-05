@@ -1,10 +1,12 @@
 ## Welcome to  fractal Gallery
 
-You can use the [editor on GitHub](https://github.com/mruizm4/Galeria-de-Fractales/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Aqui alojare unos cuantos fractales hechos con codigo python. Los tipos de fractaes que se alojaran aqui sera los siguientes.
+*Conjuntos de Newton+
+*Conjuntos de Julia
+*Sistemas iterados de funciones
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Conjuntos de newton
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
