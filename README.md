@@ -167,3 +167,4 @@ En este caso el polinomio usado fue $x^3+2x^2-x+2$:
 Para los conjuntos de Julia daremos a conocer los siguientes aspectos.
 * Funcio con la obtenimos el fractal
 * Grafica de la velocidad y la convergencia
+![Mi Cuarto Fractal](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20Julia%201.PNG)
