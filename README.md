@@ -49,7 +49,7 @@ image
 ```
 La funcion matematica para este fractal fue $ x^3-1 $ y sus raiz real es 1 y las imaginarias son $-1/2-\frac{\sqrt{3}}{2}i$ y $-\frac{1}{2}+\frac{\sqrt{3}}{2}i$
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+![Mi segundo Fractal](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20Newton%202.PNG)
 
 
 ### Jekyll Themes
