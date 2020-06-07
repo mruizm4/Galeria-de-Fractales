@@ -40,9 +40,9 @@ for y in range (imgy):
             if abs (z0-z)<eps:
                 break
             z=z0
-            r=i*20
-            g=i*20
-            b=i*20
+            r=i*8
+            g=i*8
+            b=i*8
             image.putpixel((x,y),(r,g,b))
 image
 
@@ -74,9 +74,9 @@ for y in range (imgy):
             if abs (z0-z)<eps:
                 break
             z=z0
-            r=i*20
-            g=i*20
-            b=i*20
+            r=i*32
+            g=i*16
+            b=i*8
             image.putpixel((x,y),(r,g,b))
 image
 
@@ -85,4 +85,6 @@ En este caso el polinomio usado fue $x^3-x+5$:
 * Raiz real:-1.9041608591349,0
 * Raiz Imaginaria: 
     * 0.9520804295675-1.3112480440771i 
-    * 0.9520804295675+1.3112480440771i
+    * 0.9520804295675+1.3112480440771i      
+![Mi Tercer Fractal](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20Newton%203.PNG)
+
