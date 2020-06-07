@@ -125,3 +125,5 @@ En este caso el polinomio usado fue $x^4+x^3-1$:
 * Raiz Imaginaria:
     * -0.2194474721493-0.9144736629677i
     * -0.2194474721493+0.9144736629677i
+   
+![Mi Tercer Fractal](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20Newton%204.PNG)
