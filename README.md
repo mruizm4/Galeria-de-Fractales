@@ -163,3 +163,7 @@ En este caso el polinomio usado fue $x^3+2x^2-x+2$:
 * Raiz Imaginaria:
     * 0.3294835409585-0.8022545575574i
     * 0.3294835409585+0.8022545575574i
+### Conjutos de Julia
+Para los conjuntos de Julia daremos a conocer los siguientes aspectos.
+* Funcio con la obtenimos el fractal
+* Grafica de la velocidad y la convergencia
