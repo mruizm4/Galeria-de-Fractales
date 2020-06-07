@@ -196,7 +196,35 @@ for y in range (imgy):
             g=i*64
             b=i*32
             image.putpixel((x,y),(r,g,b))
+image
 ```
 La funcion que se uso para obtner este fractal fue $x^3+x+0.2+0.3i$
 
 ![Mi sexto Fractal](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20Julia%202.PNG)
+```
+import matplotlib.pyplot as plt
+from PIL import Image
+xa=-2
+xb=2
+ya=-2
+yb=2
+maxit=30
+def f(z):
+    return z**5+2*z**3+5*z**2-complex(0.2,0.3)
+
+for y in range (imgy):
+    zy=y*(yb-ya)/(imgy-1)+ya
+    for x in range (imgx):
+        zx=x*(xb-xa)/(imgx-1)+xa
+        z=complex(zx,zy)
+        for i in range (maxit):
+            z0=f(z)
+            if abs(z)>1000:
+                break
+            z=z0
+            r=i*50
+            g=i*100
+            b=i*150
+            image.putpixel((x,y),(r,g,b))
+```
+En este fractal se utilizo la funcion $x^5+2x^3+5x^2-0.2-0.3i$
