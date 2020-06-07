@@ -168,7 +168,8 @@ En este caso el polinomio usado fue $x^3+2x^2-x+2$:
 Para los conjuntos de Julia daremos a conocer los siguientes aspectos.
 * Funcio con la obtenimos el fractal
 * Grafica de la velocidad y la convergencia
-![Mi Cuarto Fractal](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20Julia%201.PNG)
+
+![Mi quintoo Fractal](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20Julia%201.PNG)
 
 ```
 import matplotlib.pyplot as plt
@@ -197,3 +198,5 @@ for y in range (imgy):
             image.putpixel((x,y),(r,g,b))
 ```
 La funcion que se uso para obtner este fractal fue $x^3+x+0.2+0.3i$
+
+![Mi sexto Fractal](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20Julia%202.PNG)
