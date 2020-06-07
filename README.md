@@ -47,7 +47,7 @@ for y in range (imgy):
 image
 
 ```
-La funcion matematica para este fractal fue $$ x^3-1 $$ y sus raiz real es 1 y las imaginarias son 
+La funcion matematica para este fractal fue $$ x^3-1 $$ y sus raiz real es 1 y las imaginarias son $-1/2-\frac{\sqrt{3}}{2}i$ y $-\frac{1}{2}+\frac{\sqrt{3}}{2}i$
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
