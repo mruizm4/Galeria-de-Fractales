@@ -86,5 +86,6 @@ En este caso el polinomio usado fue $x^3-x+5$:
 * Raiz Imaginaria: 
     * 0.9520804295675-1.3112480440771i 
     * 0.9520804295675+1.3112480440771i      
+
 ![Mi Tercer Fractal](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20Newton%203.PNG)
 
