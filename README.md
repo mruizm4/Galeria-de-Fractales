@@ -126,4 +126,40 @@ En este caso el polinomio usado fue $x^4+x^3-1$:
     * -0.2194474721493-0.9144736629677i
     * -0.2194474721493+0.9144736629677i
    
-![Mi Tercer Fractal](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20Newton%204.PNG)
+![Mi Cuarto Fractal](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20Newton%204.PNG)
+```
+import matplotlib.pyplot as plt
+from PIL import Image
+xa=-2
+xb=2
+ya=-2
+yb=2
+maxit=30
+h=1e-6
+eps=1e-3
+def f(z):
+    return z**(3)+2*z**(2)-z+2
+
+for y in range (imgy):
+    zy=y*(yb-ya)/(imgy-1)+ya
+    for x in range (imgx):
+        zx=x*(xb-xa)/(imgx-1)+xa
+        z=complex(zx,zy)
+        for i in range (maxit):
+            dz=(f(z+complex(h,h))-f(z))/complex(h,h)
+            z0=z-f(z)/dz
+            if abs (z0-z)<eps:
+                break
+            z=z0
+            r=i*32
+            g=i*8
+            b=i*64
+            image.putpixel((x,y),(r,g,b))
+image
+```
+En este caso el polinomio usado fue $x^3+2x^2-x+2$:
+* Raiz Real:
+    * -2.658967081917-0i
+* Raiz Imaginaria:
+    * 0.3294835409585-0.8022545575574i
+    * 0.3294835409585+0.8022545575574i
