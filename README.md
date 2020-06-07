@@ -163,8 +163,37 @@ En este caso el polinomio usado fue $x^3+2x^2-x+2$:
 * Raiz Imaginaria:
     * 0.3294835409585-0.8022545575574i
     * 0.3294835409585+0.8022545575574i
+
 ### Conjutos de Julia
 Para los conjuntos de Julia daremos a conocer los siguientes aspectos.
 * Funcio con la obtenimos el fractal
 * Grafica de la velocidad y la convergencia
 ![Mi Cuarto Fractal](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20Julia%201.PNG)
+
+```
+import matplotlib.pyplot as plt
+from PIL import Image
+xa=-2
+xb=2
+ya=-2
+yb=2
+maxit=30
+def f(z):
+    return z**3+z+complex(0.2,0.3)
+
+for y in range (imgy):
+    zy=y*(yb-ya)/(imgy-1)+ya
+    for x in range (imgx):
+        zx=x*(xb-xa)/(imgx-1)+xa
+        z=complex(zx,zy)
+        for i in range (maxit):
+            z0=f(z)
+            if abs(z)>1000:
+                break
+            z=z0
+            r=i*8
+            g=i*64
+            b=i*32
+            image.putpixel((x,y),(r,g,b))
+```
+La funcion que se uso para obtner este fractal fue $x^3+x+0.2+0.3i$
