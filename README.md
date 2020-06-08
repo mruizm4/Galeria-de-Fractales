@@ -262,3 +262,37 @@ for y in range (imgy):
  image
 ```
 este fractal de Juñia se obtuvo con el polinomio $5x^4+0.1+0.2i$
+
+![Mi septimo Fractal](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20Julia%204.PNG)
+```
+import matplotlib.pyplot as plt
+from PIL import Image
+imgx=800
+imgy=800
+image=Image.new("RGB",(imgx,imgy))
+image.putpixel((100,100),(255,255,255))
+xa=-2
+xb=2
+ya=-2
+yb=2
+maxit=30
+def f(z):
+    return z**2-z+complex(0.1,0.2)
+
+for y in range (imgy):
+    zy=y*(yb-ya)/(imgy-1)+ya
+    for x in range (imgx):
+        zx=x*(xb-xa)/(imgx-1)+xa
+        z=complex(zx,zy)
+        for i in range (maxit):
+            z0=f(z)
+            if abs(z)>1000:
+                break
+            z=z0
+            r=i*12
+            g=i*6
+            b=i*24
+            image.putpixel((x,y),(r,g,b))
+image
+```
+El polinomio utilizado fur $x^2-x+0.1+0.2i$
