@@ -228,3 +228,4 @@ for y in range (imgy):
             image.putpixel((x,y),(r,g,b))
 ```
 En este fractal se utilizo la funcion $x^5+2x^3+5x^2-0.2-0.3i$
+
