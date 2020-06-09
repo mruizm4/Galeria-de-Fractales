@@ -302,3 +302,13 @@ Para este casi miraremos 2 tipos:
 * Fractales generados por un algoritmo aleatorio
 
 Los siguientes fractales fueron creados con algoritomos deterministas, empezando por el triangulo de sierpinski y sus diferentes iteraciones.
+
+![Sierpinski 1](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20A.determinista%20sierpinski%201.PNG)
+
+![Sierpinski 2](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20A.determinista%20sierpinski%202.PNG)
+
+
+![Sierpinski 3](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20A.determinista%20sierpinski%203.PNG)
+
+
+![Sierpinski 4](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20A.determinista%20sierpinski%204.PNG)
