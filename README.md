@@ -313,5 +313,5 @@ Los siguientes fractales fueron creados con algoritomos deterministas, empezando
 
 ![Sierpinski 4](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20A.determinista%20sierpinski%204.PNG)
 
-Debo aclacrar que el codigo utilizado para generar el triangulo de sierpinski y sus ietraciones due obetnido de: 
-* "*Pintando el caos con Python"* Isabel Ruiz Buriticá 2018 Medellin Colombia pag(10) (recuperado de:https://2018.pycon.co/talks/painting-chaos-with-python/painting-chaos-with-python.pdf)
+Debo aclarar que el codigo utilizado para generar el triangulo de sierpinski y sus iteraciones fue obetnido de: 
+* "*Pintando el caos con Python"* Isabel Ruiz Buriticá 2018 Medellin Colombia pag 10 (recuperado de:https://2018.pycon.co/talks/painting-chaos-with-python/painting-chaos-with-python.pdf)
