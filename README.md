@@ -66,7 +66,11 @@ for y in range (imgy):
 image
 
 ```
-La funcion matematica para este fractal fue \insertequation[]{x^3-1} y sus raiz real es 1, 0 y las imaginarias son $-1/2-\frac{\sqrt{3}}{2}i$ y $-\frac{1}{2}+\frac{\sqrt{3}}{2}i$
+La funcion matematica para este fractal fue $x^3-1$:
+* Raiz real: $(1,0)$ 
+* Raiz imaginaria:  
+    *$-1/2-\frac{\sqrt{3}}{2}i$ 
+    *$-\frac{1}{2}+\frac{\sqrt{3}}{2}i$
 
 ![Mi segundo Fractal](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20Newton%202.PNG)
 ```
