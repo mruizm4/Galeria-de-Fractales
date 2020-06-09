@@ -459,4 +459,35 @@ Este fractal con algoritmo aleatorio es otra vez el trinagulo de sierpinski pero
 ![Sierpinski A4](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20A.aleatorio%20Sierpinski%204%20.PNG)
 
 ![Sierpinski A5](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20A.aleatorio%20Sierpinski%205%20.PNG)
+este codigo fue el utilizado para hacer las fu¿ifuras vustas anteriormente
+```
+import numpy as np
+import matplotlib.pyplot as plt
+fig=plt.figure()
+ax=plt.gca()
+Tri=np.array([[0,0],[1,0],[0,1],[0,0]])
+plt.scatter(Tri.transpose()[0],Tri.transpose()[1])
+plt.plot(Tri.transpose()[0],Tri.transpose()[1])
+ax.set_xticks(np.arange(-0.2,1.4,0.2))
+ax.set_yticks(np.arange(-0.2,1.4,0.2))
+plt.grid()
+ax.axis("equal")
+def transafin(M,t,x):
+    y=M@x+t
+    return y
+transafin([[0.5,0],[0,0.5]],[0,0],Tri[1])
+fig=plt.figure()
+ax=plt.gca()
+Tri=np.array([[0,0]])
+for i in range(8):
+    tritrans=np.array([transafin([[0.5,0],[0,0.5]],[0,0],i) for i in Tri])
+    tritrans2=np.array([transafin([[0.5,0],[0,0.5]],[0,0.5],i) for i in Tri])
+    tritrans3=np.array([transafin([[0.5,0],[0,0.5]],[0.5,0],i) for i in Tri])
+    Tri=np.concatenate((tritrans,tritrans2,tritrans3))
+plt.scatter(Tri.transpose()[0],Tri.transpose()[1],color='black',s=0.2)
+ax.set_xticks(np.arange(-0.2,1.4,0.2))
+ax.set_yticks(np.arange(-0.2,1.4,0.2))
+plt.grid()
+ax.axis("equal")
+```
 
