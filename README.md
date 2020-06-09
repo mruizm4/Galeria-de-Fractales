@@ -348,3 +348,43 @@ Este fractal de algortimo es el copo de nieve de Kock y sus iteraciones
 
 He de aclarar que el codigo que se muestra a continuacion y el utilizado para obtener los fractales anteriores fue obtenido de la siquiente pagina web :
 * https://python-with-science.readthedocs.io/en/latest/koch_fractal/koch_fractal.html
+
+```
+from turtle import *
+
+def koch(a, order):
+    if order > 0:
+        for t in [60, -120, 60, 0]:
+            koch(a/3,order-1)
+            left(t)
+    else:
+        forward(a)
+
+color("sky blue", "white")
+bgcolor("black")
+size = 400
+order = 6
+
+# Ensure snowflake is centred
+penup()
+backward(size/1.732)
+left(30)
+pendown()
+
+# Make it fast
+tracer(100)
+hideturtle()
+
+begin_fill()
+
+# Three Koch curves
+for i in range(3):
+    koch(size, order)
+    right(120)
+
+end_fill()
+
+# Make the last parts appear
+update()
+reset()
+```
