@@ -315,3 +315,23 @@ Los siguientes fractales fueron creados con algoritomos deterministas, empezando
 
 Debo aclarar que el codigo que se se va a mostrar a continuacion y el utilizado para generar el triangulo de sierpinski y sus iteraciones fue obetnido de: 
 * "*Pintando el caos con Python"* Isabel Ruiz Buriticá 2018 Medellin Colombia pag 10 (recuperado de:https://2018.pycon.co/talks/painting-chaos-with-python/painting-chaos-with-python.pdf)
+
+```
+from tkinter import *
+import math
+def sierpinski(canvas,x,y,size,level):
+    x=float(x)
+    y=float(y)
+    if (level==0):
+        canvas.create_polygon(x,y,x+size,y,x+size/2,y-size*math.sqrt(3)/2,fill="green")
+    else: 
+        sierpinski(canvas,x,y,size/2,level-1)
+        sierpinski(canvas,x+size/2,y,size/2,level-1)
+        sierpinski(canvas,x+size/4,y-size*math.sqrt(3)/4,size/2,level-1)
+root=Tk()
+myCanvas=Canvas(root, width=600,height=600)
+myCanvas.pack()
+sierpinski(myCanvas,50,500,500,3)
+root.mainloop()
+```
+
