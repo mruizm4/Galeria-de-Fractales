@@ -392,11 +392,11 @@ EL siquiente es el helecho de Barnsley hecho con un algortimo aleatorio sacando 
 
 ![Banrsley](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20A.aleatorio%20Barsnley%20.PNG)
 
-![Banrsley 2]()
+![Banrsley 2](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20A.aleatorio%20Barsnley%202%20.PNG)
 
-![Banrsley 3]()
+![Banrsley 3](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20A.aleatorio%20Barsnley%203%20.PNG)
 
-![Banrsley 4]()
+![Banrsley 4](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20A.aleatorio%20Barsnley%204%20.PNG)
 
 ```
 # importing necessary modules 
