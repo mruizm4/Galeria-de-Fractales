@@ -105,10 +105,10 @@ image
 
 ```
 En este caso el polinomio usado fue $x^3-x+5$:
-* Raiz real:-1.9041608591349,0
+* Raiz real:$-1.9041608591349,0$
 * Raiz Imaginaria: 
-    * 0.9520804295675-1.3112480440771i 
-    * 0.9520804295675+1.3112480440771i      
+    * $0.9520804295675-1.3112480440771i $
+    * $0.9520804295675+1.3112480440771i  $    
 
 ![Mi Tercer Fractal](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20Newton%203.PNG)
 ```
@@ -143,11 +143,11 @@ image
 ```
 En este caso el polinomio usado fue $x^4+x^3-1$:
 * Raiz real: 
-    * -1.3802775690976+0i
-    * 0.8191725133962+0i
+    * $-1.3802775690976+0i$
+    * $0.8191725133962+0i$
 * Raiz Imaginaria:
-    * -0.2194474721493-0.9144736629677i
-    * -0.2194474721493+0.9144736629677i
+    * $-0.2194474721493-0.9144736629677i$
+    * $-0.2194474721493+0.9144736629677i$
    
 ![Mi Cuarto Fractal](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20Newton%204.PNG)
 ```
@@ -182,14 +182,14 @@ image
 ```
 En este caso el polinomio usado fue $x^3+2x^2-x+2$:
 * Raiz Real:
-    * -2.658967081917-0i
+    * $-2.658967081917-0i$
 * Raiz Imaginaria:
-    * 0.3294835409585-0.8022545575574i
-    * 0.3294835409585+0.8022545575574i
+    * $0.3294835409585-0.8022545575574i$
+    * $0.3294835409585+0.8022545575574i$
 
 ### Conjutos de Julia
 Para los conjuntos de Julia daremos a conocer los siguientes aspectos.
-* Funcio con la obtenimos el fractal
+* Funcion con la obtenimos el fractal
 * Grafica de la velocidad y la convergencia
 
 ![Mi quintoo Fractal](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20Julia%201.PNG)
