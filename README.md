@@ -334,4 +334,4 @@ myCanvas.pack()
 sierpinski(myCanvas,50,500,500,3)
 root.mainloop()
 ```
-
+Este fractal de algortimo es el copo de nieve de Kock y sus iteraciones
