@@ -340,7 +340,7 @@ Este fractal de algortimo es el copo de nieve de Kock y sus iteraciones
 
 ![Koch 2](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20A.determinista%20koch%202.PNG)
 
-![Koch 3](ttps://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20A.determinista%20koch%203.PNG)
+![Koch 3](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20A.determinista%20koch%203.PNG)
 
 ![Koch 4]()
 
