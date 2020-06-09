@@ -450,11 +450,13 @@ plt.show()
 ```
 Este fractal con algoritmo aleatorio es otra vez el trinagulo de sierpinski pero esta vez con un algoritmo de creacion diferente:
 
-![Sierpinski A1]()
+![Sierpinski A1](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20A.aleatorio%20Sierpinski%201%20.PNG)
 
-![Sierpinski A2]()
+![Sierpinski A2](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20A.aleatorio%20Sierpinski%202%20.PNG)
 
-![Sierpinski A3]()
+![Sierpinski A3](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20A.aleatorio%20Sierpinski%203%20.PNG)
 
-![Sierpinski A4]()
+![Sierpinski A4](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20A.aleatorio%20Sierpinski%204%20.PNG)
+
+![Sierpinski A5](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20A.aleatorio%20Sierpinski%205%20.PNG)
 
