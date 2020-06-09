@@ -69,8 +69,8 @@ image
 La funcion matematica para este fractal fue $x^3-1$:
 * Raiz real: $(1,0)$ 
 * Raiz imaginaria:  
-    *$-1/2-\frac{\sqrt{3}}{2}i$ 
-    *$-\frac{1}{2}+\frac{\sqrt{3}}{2}i$
+    * $-1/2-\frac{\sqrt{3}}{2}i$ 
+    * $-\frac{1}{2}+\frac{\sqrt{3}}{2}i$
 
 ![Mi segundo Fractal](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20Newton%202.PNG)
 ```
