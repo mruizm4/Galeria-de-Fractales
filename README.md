@@ -448,3 +448,13 @@ plt.axis("equal")
 plt.show()   
 
 ```
+Este fractal con algoritmo aleatorio es otra vez el trinagulo de sierpinski pero esta vez con un algoritmo de creacion diferente:
+
+![Sierpinski A1]()
+
+![Sierpinski A2]()
+
+![Sierpinski A3]()
+
+![Sierpinski A4]()
+
