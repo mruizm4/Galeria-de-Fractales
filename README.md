@@ -388,3 +388,6 @@ end_fill()
 update()
 reset()
 ```
+EL siquiente es el helecho de Barnsley hecho con un algortimo aleatorio sacando del siguiente sito web:https://www.geeksforgeeks.org/barnsley-fern-in-python/
+
+![Banrsley](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20A.aleatorio%20Barsnley%20.PNG)
