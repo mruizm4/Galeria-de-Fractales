@@ -296,3 +296,9 @@ for y in range (imgy):
 image
 ```
 El polinomio utilizado fur $x^2-x+0.1+0.2i$
+
+pip install nbinteract
+
+# Las siguientes dos líneas se pueden omitir para la versión de notebook 5.3 y superior
+jupyter nbextension enable --py --sys-prefix widgetsnbextension
+jupyter nbextension enable --py --sys-prefix bqplot
