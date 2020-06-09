@@ -344,4 +344,4 @@ Este fractal de algortimo es el copo de nieve de Kock y sus iteraciones
 
 ![Koch 4]()
 
-![Koch 3]()
+![Koch 5](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20A.determinista%20koch%205.PNG)
