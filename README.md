@@ -335,3 +335,13 @@ sierpinski(myCanvas,50,500,500,3)
 root.mainloop()
 ```
 Este fractal de algortimo es el copo de nieve de Kock y sus iteraciones
+
+![Koch 1](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20A.determinista%20koch%201.PNG)
+
+![Koch 2](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20A.determinista%20koch%202.PNG)
+
+![Koch 3](ttps://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20A.determinista%20koch%203.PNG)
+
+![Koch 4]()
+
+![Koch 3]()
