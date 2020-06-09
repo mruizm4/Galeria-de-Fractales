@@ -296,3 +296,9 @@ for y in range (imgy):
 image
 ```
 El polinomio utilizado fur $x^2-x+0.1+0.2i$
+### Sistema Iterados de funciones:
+Para este casi miraremos 2 tipos:
+* Fractales generados por un algortimo deterministas
+* Fractales generados por un algoritmo aleatorio
+
+Los siguientes fractales fueron creados con algoritomos deterministas, empezando por el triangulo de sierpinski y sus diferentes iteraciones.
