@@ -516,31 +516,4 @@ ax.axis("equal")
 si quiere modificar un fractak¿l, como el grado de su funcion o el color ingrese al link de abajo (puede que sea demorado en cargar)
 [link interactivo](Codigointeractivo1.html)
 
-Aveces cierta funciones matematicas pueden generar un fractal o asemejarse a uno con el que se va a ver abajo.
 
-!["Fractal 3D"](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal3D.png)
-
-```
-from mpl_toolkits import mplot3d
-import numpy as np
-import matplotlib.pyplot as plt
-from sympy import *
-from random import randint 
-fig = plt.figure()
-ax=plt.axes(projection="3d")
-#z=np.linspace(0,10,100)
-#x=np.sin(z)
-#y=np.cos(z)
-#ax.plot3D(x,y,z,'red')
-#ax.scatter3D(x,y,z) 
-#plt.show()
-
-def f(x,y):
-    return -np.sin(x)-np.cos(y)
-x=np.linspace(-5,5,40)
-y=x
-X,Y=np.meshgrid(x,y)
-Z=f(X,Y)
-ax.plot_surface(X,Y,Z,cmap="viridis")
-plt.show
-```
