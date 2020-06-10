@@ -517,4 +517,6 @@ si quiere modificar un fractak¿l, como el grado de su funcion o el color ingres
 
 [link interactivo](Codigointeractivo2.html)
 
+[link interactivo](Codigointeractivo3.html)
+
 
