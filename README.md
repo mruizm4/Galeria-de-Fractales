@@ -513,4 +513,8 @@ ax.set_yticks(np.arange(-0.2,1.4,0.2))
 plt.grid()
 ax.axis("equal")
 ```
+si quiere modificar un fractak¿l, como el grado de su funcion o el color ingrese al link de abajo (puede que sea demorado en cargar)
 [link interactivo](Codigointeractivo1.html)
+
+Aveces cierta funciones matematicas pueden generar un fractal o asemejarse a uno con el que se va a ver abajo.
+![Sierpinski A1]()
