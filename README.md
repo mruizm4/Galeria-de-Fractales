@@ -73,7 +73,7 @@ La funcion matematica para este fractal fue $x^3-1$:
     * $-\frac{1}{2}+\frac{\sqrt{3}}{2}i$
 
 ![Mi segundo Fractal](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20Newton%202.PNG)
-```
+```python
 import matplotlib.pyplot as plt
 from PIL import Image
 xa=-1
@@ -111,7 +111,7 @@ En este caso el polinomio usado fue $x^3-x+5$:
     * $0.9520804295675+1.3112480440771i  $    
 
 ![Mi Tercer Fractal](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20Newton%203.PNG)
-```
+```python
 import matplotlib.pyplot as plt
 from PIL import Image
 xa=-2
@@ -150,7 +150,7 @@ En este caso el polinomio usado fue $x^4+x^3-1$:
     * $-0.2194474721493+0.9144736629677i$
    
 ![Mi Cuarto Fractal](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20Newton%204.PNG)
-```
+```python
 import matplotlib.pyplot as plt
 from PIL import Image
 xa=-2
@@ -194,7 +194,7 @@ Para los conjuntos de Julia daremos a conocer los siguientes aspectos.
 
 ![Mi quintoo Fractal](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20Julia%201.PNG)
 
-```
+```python
 import matplotlib.pyplot as plt
 from PIL import Image
 xa=-2
@@ -224,7 +224,7 @@ image
 La funcion que se uso para obtner este fractal fue $x^3+x+0.2+0.3i$
 
 ![Mi sexto Fractal](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20Julia%202.PNG)
-```
+```python
 import matplotlib.pyplot as plt
 from PIL import Image
 xa=-2
@@ -253,7 +253,7 @@ for y in range (imgy):
 En este fractal se utilizo la funcion $x^5+2x^3+5x^2-0.2-0.3i$
 
 ![Mi septimo Fractal](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20Julia%203.PNG)
-```
+```python
 import matplotlib.pyplot as plt
 from PIL import Image
 imgx=800
@@ -287,7 +287,7 @@ for y in range (imgy):
 este fractal de Juñia se obtuvo con el polinomio $5x^4+0.1+0.2i$
 
 ![Mi septimo Fractal](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20Julia%204.PNG)
-```
+```python
 import matplotlib.pyplot as plt
 from PIL import Image
 imgx=800
@@ -339,7 +339,7 @@ Los siguientes fractales fueron creados con algoritomos deterministas, empezando
 Debo aclarar que el codigo que se se va a mostrar a continuacion y el utilizado para generar el triangulo de sierpinski y sus iteraciones fue obetnido de: 
 * "*Pintando el caos con Python"* Isabel Ruiz Buriticá 2018 Medellin Colombia pag 10 (recuperado de:https://2018.pycon.co/talks/painting-chaos-with-python/painting-chaos-with-python.pdf)
 
-```
+```python
 from tkinter import *
 import math
 def sierpinski(canvas,x,y,size,level):
@@ -372,7 +372,7 @@ Este fractal de algortimo es el copo de nieve de Kock y sus iteraciones
 He de aclarar que el codigo que se muestra a continuacion y el utilizado para obtener los fractales anteriores fue obtenido de la siquiente pagina web :
 * https://python-with-science.readthedocs.io/en/latest/koch_fractal/koch_fractal.html
 
-```
+```python
 from turtle import *
 
 def koch(a, order):
@@ -421,7 +421,7 @@ EL siquiente es el helecho de Barnsley hecho con un algortimo aleatorio sacando 
 
 ![Banrsley 4](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20A.aleatorio%20Barsnley%204%20.PNG)
 
-```
+```python
 # importing necessary modules 
 import matplotlib.pyplot as plt 
 from random import randint 
@@ -483,7 +483,7 @@ Este fractal con algoritmo aleatorio es otra vez el trinagulo de sierpinski pero
 
 ![Sierpinski A5](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20A.aleatorio%20Sierpinski%205%20.PNG)
 este codigo fue el utilizado para hacer las fu¿ifuras vustas anteriormente
-```
+```python
 import numpy as np
 import matplotlib.pyplot as plt
 fig=plt.figure()
