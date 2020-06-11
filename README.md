@@ -338,6 +338,8 @@ for y in range (imgy):
 image
 ```
 El polinomio utilizado fue $x^2-x+0.1+0.2i$
+
+![Fractal extr 3](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20Julia%205.PNG)
 ```python
 import matplotlib.pyplot as plt
 from PIL import Image
