@@ -468,7 +468,7 @@ for y in range (imgy):
             image.putpixel((x,y),(r,g,b))
 image
 ```
-![Fractal extra 4]()
+![Fractal extra 4](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20Julia%206.PNG)
 
 La funcio tilizada fue utilizado fue $x^5-x+0.001+0.0002i$
 
