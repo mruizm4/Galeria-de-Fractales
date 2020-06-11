@@ -338,6 +338,7 @@ for y in range (imgy):
 image
 ```
 El polinomio utilizado fue $x^2-x+0.1+0.2i$
+![Mfractal extra 3]()
 ### Sistema Iterados de funciones:
 Para este casi miraremos 2 tipos:
 * Fractales generados por un algoritmo deterministas
