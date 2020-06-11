@@ -561,8 +561,7 @@ end_fill()
 update()
 reset()
 ```
-EL siguiente es el helecho de Barnsley hecho con un algoritmo aleatorio sacando del siguiente sito web: [https://www.geeksforgeeks.org/barnsley-fern-in-python/](https://www.geeksforgeeks.org/barnsley-fern-in-python/ [https://www.geeksforgeeks.org/barnsley-fern-in-python/)
-
+EL siguiente es el helecho de Barnsley hecho con un algoritmo aleatorio sacando del siguiente sito web: [https://www.geeksforgeeks.org/barnsley-fern-in-python/](https://www.geeksforgeeks.org/barnsley-fern-in-python/) 
 
 ![Banrsley](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20A.aleatorio%20Barsnley%20.PNG)
 
