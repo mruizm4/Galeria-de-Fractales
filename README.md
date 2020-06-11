@@ -513,10 +513,10 @@ ax.set_yticks(np.arange(-0.2,1.4,0.2))
 plt.grid()
 ax.axis("equal")
 ```
-si quiere modificar un fractak¿l, como el grado de su funcion o el color ingrese al link de abajo (puede que sea demorado en cargar)
+si quiere modificar un fractal, como el grado de su funcion o el color ingrese al link de abajo (puede que sea demorado en cargar)
 
-[link interactivo](Codigointeractivo2.html)
+[link interactivo 1](Codigointeractivo2.html)
 
-[link interactivo](Codigointeractivo3.html)
+[link interactivo 2](Codigointeractivo3.html)
 
 
