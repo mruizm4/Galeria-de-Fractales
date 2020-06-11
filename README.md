@@ -78,6 +78,7 @@ La función matemática para este fractal fue $x^3-1$:
     * $-\frac{1}{2}+\frac{\sqrt{3}}{2}i$
 
 ![Mi segundo Fractal](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20Newton%202.PNG)
+
 ```python
 import matplotlib.pyplot as plt
 from PIL import Image
@@ -121,6 +122,7 @@ En este caso el polinomio usado fue $x^3-x+5$:
     * $0.9520804295675+1.3112480440771i  $    
 
 ![Mi Tercer Fractal](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20Newton%203.PNG)
+
 ```python
 import matplotlib.pyplot as plt
 from PIL import Image
@@ -164,6 +166,7 @@ En este caso el polinomio usado fue $x^4+x^3-1$:
     * $-0.2194474721493+0.9144736629677i$
    
 ![Mi Cuarto Fractal](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20Newton%204.PNG)
+
 ```python
 import matplotlib.pyplot as plt
 from PIL import Image
@@ -361,6 +364,7 @@ for y in range (imgy):
 En este fractal se utilizó la función $x^5+2x^3+5x^2-0.2-0.3i$
 
 ![Mi septimo Fractal](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20Julia%203.PNG)
+
 ```python
 import matplotlib.pyplot as plt
 from PIL import Image
@@ -395,6 +399,7 @@ for y in range (imgy):
 este fractal de Julia se obtuvo con el polinomio $5x^4+0.1+0.2i$
 
 ![Mi septimo Fractal](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20Julia%204.PNG)
+
 ```python
 import matplotlib.pyplot as plt
 from PIL import Image
@@ -429,6 +434,7 @@ image
 El polinomio utilizado fue $x^2-x+0.1+0.2i$
 
 ![Fractal extra 3](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20Julia%205.PNG)
+
 ```python
 import matplotlib.pyplot as plt
 from PIL import Image
@@ -436,7 +442,6 @@ imgx=800
 imgy=800
 image=Image.new("RGB",(imgx,imgy))
 image.putpixel((100,100),(255,255,255))
-![fractal extra 3](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20Julia%205.PNG)
 mport matplotlib.pyplot as plt
 from PIL import Image
 xa=-2
