@@ -189,6 +189,14 @@ En este caso el polinomio usado fue $x^3+2x^2-x+2$:
     * $0.3294835409585-0.8022545575574i$
     * $0.3294835409585+0.8022545575574i$
 
+![Fractal extra 1]()
+Este fractal se obtuvo con la función $x^4+5x^2$ y tiene los siguientes raises:
+* Raíz real:
+	* $0+0i$
+* Raíz imaginaria:
+	* $0+2.23606797749981i$
+	* $0-2.23606797749981i$
+
 ### Conjuntos de Julia
 Para los conjuntos de Julia daremos a conocer los siguientes aspectos.
 * Función con la obtuvimos el fractal
