@@ -299,6 +299,9 @@ Para los conjuntos de Julia daremos a conocer los siguientes aspectos.
 ![Mi quintoo Fractal](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20Julia%201.PNG)
 
 ```python
+imgx=800
+imgy=800
+image=Image.new("RGB",(imgx,imgy))
 import matplotlib.pyplot as plt
 from PIL import Image
 xa=-2
