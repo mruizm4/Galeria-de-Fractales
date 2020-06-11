@@ -17,9 +17,9 @@ MathJax.Hub.Queue(function() {
 </script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_HTML-full"></script>
 
-## Bienvenidos a la galeria de fractales
+## Bienvenidos a la galería de fractales
 
-Aqui alojare unos cuantos fractales hechos con codigo python. Los tipos de fractaes que se alojaran aqui sera los siguientes.
+Aquí alojare unos cuantos fractales hechos con código Python. Los tipos de fractales que se alojaran aquí será los siguientes.
 
 * Conjuntos de Newton
 * Conjuntos de Julia
@@ -28,10 +28,11 @@ Aqui alojare unos cuantos fractales hechos con codigo python. Los tipos de fract
 
 ### Conjuntos de newton
 
-Aqui observaremos distintos fractales Newton y de paso datos como:
-* Funcion utilizada para obtenerla
-* Raices de la funcion
+Aquí observaremos distintos fractales Newton y de paso datos como:
+* Función utilizada para obtenerla
+* Raíces de la función
 * Grafica de la velocidad y el punto de convergencia
+
 
 ![Mi primer Fractal](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%201.PNG)
 
@@ -66,9 +67,9 @@ for y in range (imgy):
 image
 
 ```
-La funcion matematica para este fractal fue $x^3-1$:
-* Raiz real: $(1,0)$ 
-* Raiz imaginaria:  
+La función matemática para este fractal fue $x^3-1$:
+* Raíz real: $(1,0)$ 
+* Raíz imaginaria:  
     * $-1/2-\frac{\sqrt{3}}{2}i$ 
     * $-\frac{1}{2}+\frac{\sqrt{3}}{2}i$
 
@@ -105,8 +106,9 @@ image
 
 ```
 En este caso el polinomio usado fue $x^3-x+5$:
-* Raiz real:$-1.9041608591349,0$
-* Raiz Imaginaria: 
+* Raíz real: $-1.9041608591349,0$
+* Raíz Imaginaria:
+ 
     * $0.9520804295675-1.3112480440771i $
     * $0.9520804295675+1.3112480440771i  $    
 
@@ -142,10 +144,10 @@ for y in range (imgy):
 image
 ```
 En este caso el polinomio usado fue $x^4+x^3-1$:
-* Raiz real: 
+* Raíz real: 
     * $-1.3802775690976+0i$
     * $0.8191725133962+0i$
-* Raiz Imaginaria:
+* Raíz Imaginaria:
     * $-0.2194474721493-0.9144736629677i$
     * $-0.2194474721493+0.9144736629677i$
    
@@ -181,16 +183,17 @@ for y in range (imgy):
 image
 ```
 En este caso el polinomio usado fue $x^3+2x^2-x+2$:
-* Raiz Real:
+* Raíz Real:
     * $-2.658967081917-0i$
-* Raiz Imaginaria:
+* Raíz Imaginaria:
     * $0.3294835409585-0.8022545575574i$
     * $0.3294835409585+0.8022545575574i$
 
-### Conjutos de Julia
+### Conjuntos de Julia
 Para los conjuntos de Julia daremos a conocer los siguientes aspectos.
-* Funcion con la obtenimos el fractal
-* Grafica de la velocidad y la convergencia
+* Función con la obtuvimos el fractal
+* Grafica de la velocidad y la convergencia   
+
 
 ![Mi quintoo Fractal](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20Julia%201.PNG)
 
@@ -221,7 +224,7 @@ for y in range (imgy):
             image.putpixel((x,y),(r,g,b))
 image
 ```
-La funcion que se uso para obtner este fractal fue $x^3+x+0.2+0.3i$
+La función que se usó para obtener este fractal fue $x^3+x+0.2+0.3i$
 
 ![Mi sexto Fractal](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20Julia%202.PNG)
 ```python
@@ -250,7 +253,7 @@ for y in range (imgy):
             b=i*150
             image.putpixel((x,y),(r,g,b))
 ```
-En este fractal se utilizo la funcion $x^5+2x^3+5x^2-0.2-0.3i$
+En este fractal se utilizó la función $x^5+2x^3+5x^2-0.2-0.3i$
 
 ![Mi septimo Fractal](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20Julia%203.PNG)
 ```python
@@ -284,7 +287,7 @@ for y in range (imgy):
             image.putpixel((x,y),(r,g,b))
  image
 ```
-este fractal de Juñia se obtuvo con el polinomio $5x^4+0.1+0.2i$
+este fractal de Julia se obtuvo con el polinomio $5x^4+0.1+0.2i$
 
 ![Mi septimo Fractal](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20Julia%204.PNG)
 ```python
@@ -318,13 +321,14 @@ for y in range (imgy):
             image.putpixel((x,y),(r,g,b))
 image
 ```
-El polinomio utilizado fur $x^2-x+0.1+0.2i$
+El polinomio utilizado fue $x^2-x+0.1+0.2i$
 ### Sistema Iterados de funciones:
 Para este casi miraremos 2 tipos:
-* Fractales generados por un algortimo deterministas
+* Fractales generados por un algoritmo deterministas
 * Fractales generados por un algoritmo aleatorio
 
-Los siguientes fractales fueron creados con algoritomos deterministas, empezando por el triangulo de sierpinski y sus diferentes iteraciones.
+Los siguientes fractales fueron creados con algoritmos deterministas, empezando por el triángulo de Sierpinski y sus diferentes iteraciones.
+
 
 ![Sierpinski 1](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20A.determinista%20sierpinski%201.PNG)
 
@@ -336,8 +340,9 @@ Los siguientes fractales fueron creados con algoritomos deterministas, empezando
 
 ![Sierpinski 4](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20A.determinista%20sierpinski%204.PNG)
 
-Debo aclarar que el codigo que se se va a mostrar a continuacion y el utilizado para generar el triangulo de sierpinski y sus iteraciones fue obetnido de: 
-* "*Pintando el caos con Python"* Isabel Ruiz Buriticá 2018 Medellin Colombia pag 10 (recuperado de:https://2018.pycon.co/talks/painting-chaos-with-python/painting-chaos-with-python.pdf)
+Debo aclarar que el código que se va a mostrar a continuación y el utilizado para generar el triángulo de Sierpinski y sus iteraciones fue obtenido de: 
+* "*Pintando el caos con Python"* Isabel Ruiz Buriticá 2018 Medellín Colombia pag 10 (recuperado de:https://2018.pycon.co/talks/painting-chaos-with-python/painting-chaos-with-python.pdf)
+
 
 ```python
 from tkinter import *
@@ -357,7 +362,7 @@ myCanvas.pack()
 sierpinski(myCanvas,50,500,500,3)
 root.mainloop()
 ```
-Este fractal de algortimo es el copo de nieve de Kock y sus iteraciones
+Este fractal de algoritmo es el copo de nieve de Koch y sus iteraciones
 
 ![Koch 1](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20A.determinista%20koch%201.PNG)
 
@@ -369,7 +374,7 @@ Este fractal de algortimo es el copo de nieve de Kock y sus iteraciones
 
 ![Koch 5](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20A.determinista%20koch%205.PNG)
 
-He de aclarar que el codigo que se muestra a continuacion y el utilizado para obtener los fractales anteriores fue obtenido de la siquiente pagina web :
+He de aclarar que el código que se muestra a continuación y el utilizado para obtener los fractales anteriores fue obtenido de la siguiente página web:
 * https://python-with-science.readthedocs.io/en/latest/koch_fractal/koch_fractal.html
 
 ```python
@@ -411,7 +416,7 @@ end_fill()
 update()
 reset()
 ```
-EL siquiente es el helecho de Barnsley hecho con un algortimo aleatorio sacando del siguiente sito web:https://www.geeksforgeeks.org/barnsley-fern-in-python/
+EL siguiente es el helecho de Barnsley hecho con un algoritmo aleatorio sacando del siguiente sito web: https://www.geeksforgeeks.org/barnsley-fern-in-python/
 
 ![Banrsley](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20A.aleatorio%20Barsnley%20.PNG)
 
@@ -471,7 +476,7 @@ plt.axis("equal")
 plt.show()   
 
 ```
-Este fractal con algoritmo aleatorio es otra vez el trinagulo de sierpinski pero esta vez con un algoritmo de creacion diferente:
+Este fractal con algoritmo aleatorio es otra vez el triángulo de Sierpinski pero esta vez con un algoritmo de creación diferente:
 
 ![Sierpinski A1](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20A.aleatorio%20Sierpinski%201%20.PNG)
 
@@ -482,7 +487,7 @@ Este fractal con algoritmo aleatorio es otra vez el trinagulo de sierpinski pero
 ![Sierpinski A4](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20A.aleatorio%20Sierpinski%204%20.PNG)
 
 ![Sierpinski A5](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20A.aleatorio%20Sierpinski%205%20.PNG)
-este codigo fue el utilizado para hacer las fu¿ifuras vustas anteriormente
+este código fue el utilizado para hacer las futuras vistas anteriormente
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
@@ -513,7 +518,7 @@ ax.set_yticks(np.arange(-0.2,1.4,0.2))
 plt.grid()
 ax.axis("equal")
 ```
-si quiere modificar un fractal, como el grado de su funcion o el color ingrese al link de abajo (puede que sea demorado en cargar)
+si quiere modificar un fractal, como el grado de su función o el color ingrese al link de abajo (puede que sea demorado en cargar)
 
 [link interactivo 1](Codigointeractivo2.html)
 
