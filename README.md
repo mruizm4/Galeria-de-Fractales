@@ -35,7 +35,7 @@ Aqui observaremos distintos fractales Newton y de paso datos como:
 
 ![Mi primer Fractal](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%201.PNG)
 
-```
+``` python
 import matplotlib.pyplot as plt
 from PIL import Image
 xa=-1
