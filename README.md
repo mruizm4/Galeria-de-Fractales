@@ -204,7 +204,47 @@ Este fractal se obtuvo con la función $x^5-x^{0.2}$ y tiene los siguientes rais
 * Raíz real:
 	* $1+0i$
 * Raíz imaginaria: No se han encontrado raíces imaginarias para este fractal
+```python
+import matplotlib.pyplot as plt
+from PIL import Image
+imgx=800
+imgy=800
+imgz=800
+image=Image.new("RGB",(imgx,imgy))
+image.putpixel((100,100),(255,255,255))
+image
+imgx=800
+imgy=800
+imgz=800
+image=Image.new("RGB",(imgx,imgy))
+image.putpixel((100,100),(255,255,255))
+xa=-2
+xb=2
+ya=-2
+yb=2
+maxit=30
+h=1e-6
+eps=1e-3
+def f(z):
+    return z**(5)-z**(0.2)
 
+for y in range (imgy):
+    zy=y*(yb-ya)/(imgy-1)+ya
+    for x in range (imgx):
+        zx=x*(xb-xa)/(imgx-1)+xa
+        z=complex(zx,zy)
+        for i in range (maxit):
+            dz=(f(z+complex(h,h))-f(z))/complex(h,h)
+            z0=z-f(z)/dz
+            if abs (z0-z)<eps:
+                break
+            z=z0
+            r=i*24
+            g=i*3
+            b=i*1
+            image.putpixel((x,y),(r,g,b))
+image
+```
 ### Conjuntos de Julia
 Para los conjuntos de Julia daremos a conocer los siguientes aspectos.
 * Función con la obtuvimos el fractal
@@ -339,7 +379,7 @@ image
 ```
 El polinomio utilizado fue $x^2-x+0.1+0.2i$
 
-![Fractal extr 3](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20Julia%205.PNG)
+![Fractal extra 3](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20Julia%205.PNG)
 ```python
 import matplotlib.pyplot as plt
 from PIL import Image
