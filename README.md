@@ -468,6 +468,7 @@ for y in range (imgy):
             image.putpixel((x,y),(r,g,b))
 image
 ```
+![Fractal extra 4]()
 
 La funcio tilizada fue utilizado fue $x^5-x+0.001+0.0002i$
 
