@@ -78,7 +78,6 @@ La función matemática para este fractal fue $x^3-1$:
     * $-\frac{1}{2}+\frac{\sqrt{3}}{2}i$
 
 ![Mi segundo Fractal](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20Newton%202.PNG)
-
 ```python
 import matplotlib.pyplot as plt
 from PIL import Image
@@ -122,7 +121,6 @@ En este caso el polinomio usado fue $x^3-x+5$:
     * $0.9520804295675+1.3112480440771i  $    
 
 ![Mi Tercer Fractal](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20Newton%203.PNG)
-
 ```python
 import matplotlib.pyplot as plt
 from PIL import Image
@@ -166,7 +164,6 @@ En este caso el polinomio usado fue $x^4+x^3-1$:
     * $-0.2194474721493+0.9144736629677i$
    
 ![Mi Cuarto Fractal](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20Newton%204.PNG)
-
 ```python
 import matplotlib.pyplot as plt
 from PIL import Image
@@ -364,7 +361,6 @@ for y in range (imgy):
 En este fractal se utilizó la función $x^5+2x^3+5x^2-0.2-0.3i$
 
 ![Mi septimo Fractal](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20Julia%203.PNG)
-
 ```python
 import matplotlib.pyplot as plt
 from PIL import Image
@@ -399,7 +395,6 @@ for y in range (imgy):
 este fractal de Julia se obtuvo con el polinomio $5x^4+0.1+0.2i$
 
 ![Mi septimo Fractal](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20Julia%204.PNG)
-
 ```python
 import matplotlib.pyplot as plt
 from PIL import Image
@@ -434,7 +429,6 @@ image
 El polinomio utilizado fue $x^2-x+0.1+0.2i$
 
 ![Fractal extra 3](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20Julia%205.PNG)
-
 ```python
 import matplotlib.pyplot as plt
 from PIL import Image
@@ -442,6 +436,7 @@ imgx=800
 imgy=800
 image=Image.new("RGB",(imgx,imgy))
 image.putpixel((100,100),(255,255,255))
+![fractal extra 3](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20Julia%205.PNG)
 mport matplotlib.pyplot as plt
 from PIL import Image
 xa=-2
@@ -468,7 +463,6 @@ for y in range (imgy):
             image.putpixel((x,y),(r,g,b))
 image
 ```
-![Fractal extra 4](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20Julia%206.PNG)
 
 La funcio tilizada fue utilizado fue $x^5-x+0.001+0.0002i$
 
@@ -491,7 +485,7 @@ Los siguientes fractales fueron creados con algoritmos deterministas, empezando 
 ![Sierpinski 4](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20A.determinista%20sierpinski%204.PNG)
 
 Debo aclarar que el código que se va a mostrar a continuación y el utilizado para generar el triángulo de Sierpinski y sus iteraciones fue obtenido de: 
-* "*Pintando el caos con Python"* Isabel Ruiz Buriticá 2018 Medellín Colombia pag 10 (recuperado de:https://2018.pycon.co/talks/painting-chaos-with-python/painting-chaos-with-python.pdf)
+* "*Pintando el caos con Python"* Isabel Ruiz Buriticá 2018 Medellín Colombia pag 10 (recuperado de:[https://2018.pycon.co/talks/painting-chaos-with-python/painting-chaos-with-python.pdf](https://2018.pycon.co/talks/painting-chaos-with-python/painting-chaos-with-python.pdf)
 
 
 ```python
@@ -525,7 +519,8 @@ Este fractal de algoritmo es el copo de nieve de Koch y sus iteraciones
 ![Koch 5](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20A.determinista%20koch%205.PNG)
 
 He de aclarar que el código que se muestra a continuación y el utilizado para obtener los fractales anteriores fue obtenido de la siguiente página web:
-* https://python-with-science.readthedocs.io/en/latest/koch_fractal/koch_fractal.html
+* [https://python-with-science.readthedocs.io/en/latest/koch_fractal/koch_fractal.html](https://python-with-science.readthedocs.io/en/latest/koch_fractal/koch_fractal.html)
+
 
 ```python
 from turtle import *
@@ -566,7 +561,8 @@ end_fill()
 update()
 reset()
 ```
-EL siguiente es el helecho de Barnsley hecho con un algoritmo aleatorio sacando del siguiente sito web: https://www.geeksforgeeks.org/barnsley-fern-in-python/
+EL siguiente es el helecho de Barnsley hecho con un algoritmo aleatorio sacando del siguiente sito web: [https://www.geeksforgeeks.org/barnsley-fern-in-python/](https://www.geeksforgeeks.org/barnsley-fern-in-python/ [https://www.geeksforgeeks.org/barnsley-fern-in-python/)
+
 
 ![Banrsley](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20A.aleatorio%20Barsnley%20.PNG)
 
