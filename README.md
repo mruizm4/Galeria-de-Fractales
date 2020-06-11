@@ -197,6 +197,12 @@ Este fractal se obtuvo con la función $x^4+5x^2$ y tiene los siguientes raises:
 * Raíz imaginaria:
 	* $0+2.23606797749981i$
 	* $0-2.23606797749981i$
+[Fractal extra 2]()
+
+Este fractal se obtuvo con la función $x^5-x^{0.2}$ y tiene los siguientes raises:
+* Raíz real:
+	* $1+0i$
+* Raíz imaginaria: No se han encontrado raíces imaginarias para este fractal
 
 ### Conjuntos de Julia
 Para los conjuntos de Julia daremos a conocer los siguientes aspectos.
