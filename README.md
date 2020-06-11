@@ -39,6 +39,10 @@ Aquí observaremos distintos fractales Newton y de paso datos como:
 ``` python
 import matplotlib.pyplot as plt
 from PIL import Image
+imgx=800
+imgy=800
+imgz=800
+image=Image.new("RGB",(imgx,imgy))
 xa=-1
 xb=1
 ya=-1
@@ -77,6 +81,10 @@ La función matemática para este fractal fue $x^3-1$:
 ```python
 import matplotlib.pyplot as plt
 from PIL import Image
+imgx=800
+imgy=800
+imgz=800
+image=Image.new("RGB",(imgx,imgy))
 xa=-1
 xb=1
 ya=-1
@@ -116,6 +124,10 @@ En este caso el polinomio usado fue $x^3-x+5$:
 ```python
 import matplotlib.pyplot as plt
 from PIL import Image
+imgx=800
+imgy=800
+imgz=800
+image=Image.new("RGB",(imgx,imgy))
 xa=-2
 xb=2
 ya=-2
@@ -155,6 +167,10 @@ En este caso el polinomio usado fue $x^4+x^3-1$:
 ```python
 import matplotlib.pyplot as plt
 from PIL import Image
+imgx=800
+imgy=800
+imgz=800
+image=Image.new("RGB",(imgx,imgy))
 xa=-2
 xb=2
 ya=-2
