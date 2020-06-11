@@ -190,6 +190,41 @@ En este caso el polinomio usado fue $x^3+2x^2-x+2$:
     * $0.3294835409585+0.8022545575574i$
 
 ![Fractal extra 1](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20Newton%205.PNG)
+```python
+import matplotlib.pyplot as plt
+from PIL import Image
+imgx=800
+imgy=800
+imgz=800
+image=Image.new("RGB",(imgx,imgy))
+
+xa=-2
+xb=2
+ya=-2
+yb=2
+maxit=30
+h=1e-6
+eps=1e-3
+def f(z):
+    return z**4+5*z**2
+
+for y in range (imgy):
+    zy=y*(yb-ya)/(imgy-1)+ya
+    for x in range (imgx):
+        zx=x*(xb-xa)/(imgx-1)+xa
+        z=complex(zx,zy)
+        for i in range (maxit):
+            dz=(f(z+complex(h,h))-f(z))/complex(h,h)
+            z0=z-f(z)/dz
+            if abs (z0-z)<eps:
+                break
+            z=z0
+            r=i*2
+            g=i*24
+            b=i*7
+            image.putpixel((x,y),(r,g,b))
+image
+```
 
 Este fractal se obtuvo con la función $x^4+5x^2$ y tiene los siguientes raises:
 * Raíz real:
@@ -200,10 +235,6 @@ Este fractal se obtuvo con la función $x^4+5x^2$ y tiene los siguientes raises:
 
 ![Fractal extra 2](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20Newton%206.PNG)
 
-Este fractal se obtuvo con la función $x^5-x^{0.2}$ y tiene los siguientes raises:
-* Raíz real:
-	* $1+0i$
-* Raíz imaginaria: No se han encontrado raíces imaginarias para este fractal
 ```python
 import matplotlib.pyplot as plt
 from PIL import Image
@@ -211,13 +242,6 @@ imgx=800
 imgy=800
 imgz=800
 image=Image.new("RGB",(imgx,imgy))
-image.putpixel((100,100),(255,255,255))
-image
-imgx=800
-imgy=800
-imgz=800
-image=Image.new("RGB",(imgx,imgy))
-image.putpixel((100,100),(255,255,255))
 xa=-2
 xb=2
 ya=-2
@@ -245,6 +269,11 @@ for y in range (imgy):
             image.putpixel((x,y),(r,g,b))
 image
 ```
+Este fractal se obtuvo con la función $x^5-x^{0.2}$ y tiene los siguientes raises:
+* Raíz real:
+	* $1+0i$
+* Raíz imaginaria: No se han encontrado raíces imaginarias para este fractal
+
 ### Conjuntos de Julia
 Para los conjuntos de Julia daremos a conocer los siguientes aspectos.
 * Función con la obtuvimos el fractal
