@@ -197,7 +197,7 @@ Este fractal se obtuvo con la función $x^4+5x^2$ y tiene los siguientes raises:
 * Raíz imaginaria:
 	* $0+2.23606797749981i$
 	* $0-2.23606797749981i$
-[Fractal extra 2](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20Newton%206.PNG)
+![Fractal extra 2](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20Newton%206.PNG)
 
 Este fractal se obtuvo con la función $x^5-x^{0.2}$ y tiene los siguientes raises:
 * Raíz real:
