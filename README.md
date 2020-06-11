@@ -338,7 +338,43 @@ for y in range (imgy):
 image
 ```
 El polinomio utilizado fue $x^2-x+0.1+0.2i$
-![Mfractal extra 3]()
+```python
+import matplotlib.pyplot as plt
+from PIL import Image
+imgx=800
+imgy=800
+image=Image.new("RGB",(imgx,imgy))
+image.putpixel((100,100),(255,255,255))
+![fractal extra 3](https://raw.githubusercontent.com/mruizm4/Galeria-de-Fractales/master/Fractal%20Julia%205.PNG)
+mport matplotlib.pyplot as plt
+from PIL import Image
+xa=-2
+xb=2
+ya=-2
+yb=2
+maxit=30
+def f(z):
+    return z**5-z+complex(0.001,0.002)
+
+for y in range (imgy):
+    zy=y*(yb-ya)/(imgy-1)+ya
+    for x in range (imgx):
+        zx=x*(xb-xa)/(imgx-1)+xa
+        z=complex(zx,zy)
+        for i in range (maxit):
+            z0=f(z)
+            if abs(z)>1000:
+                break
+            z=z0
+            r=i*15
+            g=i*24
+            b=i*24
+            image.putpixel((x,y),(r,g,b))
+image
+```
+
+La funcio tilizada fue utilizado fue $x^5-x+0.001+0.0002i$
+
 ### Sistema Iterados de funciones:
 Para este casi miraremos 2 tipos:
 * Fractales generados por un algoritmo deterministas
